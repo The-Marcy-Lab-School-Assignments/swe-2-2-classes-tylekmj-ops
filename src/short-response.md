@@ -16,7 +16,7 @@ With OOP in JavaScript, it's possible to use factory functions to achieve encaps
 How would you explain to a budding developer what the drawbacks of using factory functions are and why it is better to use classes instead?
 
 ## Response 1
-
+One drawback of using factory function instead of classes is that factory functions requires more memory so using classes would be better for optimization 
 
 ---
 
@@ -56,3 +56,4 @@ class Vault {
 Identify what the mistake is, explain why it is a problem, and suggest a way to fix it.
 
 ## Response 4
+The spread operator isn't being used in line 51. We should be using [...this.#secrets] instead when using a private field notation
