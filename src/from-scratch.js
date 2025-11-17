@@ -125,22 +125,7 @@ class BankAccount {
   }
 }
 
-class Vault {
-  #secrets = [];
 
- 
-  addSecret(newSecret) {
-    this.#secrets.push(newSecret);
-  }
-  listSecrets() {
-    return [...this.#secrets];
-  }
-}
-
-const vault = new Vault()
-
-console.log(vault.addSecret("hi"))
-console.log(vault.listSecrets("hi"))
 module.exports = {
   Rectangle,
   Vehicle,
